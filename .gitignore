@@ -1,7 +1,7 @@
 # Especific Files
-train.py
-model.py
-intents.json
+./train.py
+./model.py
+./intents.json
 
 # Logs
 logs
