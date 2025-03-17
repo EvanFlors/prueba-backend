@@ -1,0 +1,150 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Buenos días",
+        "¿Qué tal?",
+        "¡Hola!",
+        "¡Buenas!",
+        "¿Cómo estás?",
+        "¡Buenas tardes!",
+        "¡Buenas noches!"
+      ],
+      "responses": [
+        "¡Hola!",
+        "¡Qué tal!",
+        "¡Hola, ¿cómo puedo ayudarte?",
+        "¡Buenos días!",
+        "¡Buenas tardes!",
+        "¡Buenas noches!"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adiós",
+        "Hasta luego",
+        "Nos vemos",
+        "Chao",
+        "Hasta pronto",
+        "Cuídate",
+        "Que tengas un buen día",
+        "Nos vemos pronto"
+      ],
+      "responses": [
+        "¡Adiós!",
+        "¡Nos vemos pronto!",
+        "¡Que tengas un buen día!",
+        "¡Cuídate!",
+        "¡Hasta la próxima!"
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+        "Gracias",
+        "Muchas gracias",
+        "Te agradezco",
+        "Gracias a ti",
+        "Mil gracias",
+        "Te lo agradezco mucho"
+      ],
+      "responses": [
+        "¡De nada!",
+        "¡Con gusto!",
+        "¡Siempre a tu servicio!",
+        "¡No hay de qué!",
+        "¡Es un placer ayudarte!"
+      ]
+    },
+    {
+      "tag": "ayuda",
+      "patterns": [
+        "Necesito ayuda",
+        "¿Me puedes ayudar?",
+        "Tengo una pregunta",
+        "¿Cómo funciona esto?",
+        "¿Puedes ayudarme?",
+        "Ayúdame por favor"
+      ],
+      "responses": [
+        "Claro, ¿en qué puedo ayudarte?",
+        "Estoy aquí para ayudarte, ¿qué necesitas?",
+        "Por supuesto, ¿qué pregunta tienes?",
+        "¿Cómo te puedo asistir?",
+        "¿En qué puedo ayudarte hoy?"
+      ]
+    },
+    {
+      "tag": "informacion",
+      "patterns": [
+        "¿Qué es esto?",
+        "¿Cómo funciona esto?",
+        "¿Qué puedo hacer aquí?",
+        "¿Cuáles son tus servicios?",
+        "¿Qué servicios ofreces?",
+        "¿Qué puedo encontrar aquí?"
+      ],
+      "responses": [
+        "Ofrecemos varios servicios, ¿en qué te puedo ayudar específicamente?",
+        "Puedes hacer muchas cosas aquí, ¿te gustaría saber más?",
+        "Este es nuestro sistema de soporte, ¿qué te gustaría saber?",
+        "Aquí podrás encontrar ayuda con diferentes temas. ¿En qué te puedo asistir?",
+        "Nuestro servicio incluye varias opciones, ¿quieres saber más sobre alguna?"
+      ]
+    },
+    {
+      "tag": "nombre",
+      "patterns": [
+        "¿Cómo te llamas?",
+        "¿Cuál es tu nombre?",
+        "¿Qué nombre tienes?",
+        "¿Cómo te puedo llamar?",
+        "¿Quién eres?"
+      ],
+      "responses": [
+        "Soy un chatbot creado para ayudarte.",
+        "Me llamo Chatbot, ¿en qué te puedo ayudar?",
+        "Puedes llamarme Chatbot, estoy aquí para asistirte.",
+        "Mi nombre es Chatbot, ¿en qué puedo ayudarte hoy?"
+      ]
+    },
+    {
+      "tag": "felicitaciones",
+      "patterns": [
+        "¡Buen trabajo!",
+        "¡Felicidades!",
+        "¡Lo hiciste bien!",
+        "¡Excelente!",
+        "¡Qué bien hecho!"
+      ],
+      "responses": [
+        "¡Gracias! Me alegra que te guste.",
+        "¡Gracias! Estoy aquí para ayudarte.",
+        "¡Te agradezco! Siempre trato de hacerlo lo mejor posible.",
+        "¡Gracias! Siempre estoy dispuesto a ayudar.",
+        "¡Qué amable! Gracias por tus palabras."
+      ]
+    },
+    {
+      "tag": "error",
+      "patterns": [
+        "Algo salió mal",
+        "Tuve un problema",
+        "No funciona",
+        "Hubo un error",
+        "No entiendo",
+        "No sé qué hacer"
+      ],
+      "responses": [
+        "Lo siento, algo salió mal. ¿Puedes intentarlo nuevamente?",
+        "Hubo un problema. Por favor, intenta de nuevo.",
+        "Parece que algo no funciona correctamente. ¿Puedes darme más detalles?",
+        "Perdón, parece que hay un error. ¿Puedes explicarme lo que ocurrió?",
+        "Lamento el inconveniente. Estoy aquí para ayudarte a resolverlo."
+      ]
+    }
+  ]
+}
